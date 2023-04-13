@@ -1,8 +1,3 @@
-databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
-
 services:
   - type: web
     name: mysite
@@ -12,5 +7,3 @@ services:
     envVars:
       - key: django-insecure-6o+1#dp(^s=^p9u241kihz3k!y5sl-co75ve)we5ukoszqqb!& 
         generateValue: true
-      - key: WEB_CONCURRENCY
-        value: 4
